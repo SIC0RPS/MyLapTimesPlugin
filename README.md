@@ -24,16 +24,37 @@ MyLapTimesPlugin is a lightweight yet powerful plugin for **AssettoServer (v0.0.
 
 ---
 
+## ⚙️ Installation and Setup
+
+✅ Extract the provided MyLapTimesPlugin.zip into the plugins directory, which is typically located at:
+
+C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\plugins\
+
+After extracting, the directory structure should be:
+
+C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\plugins\MyLapTimesPlugin\
+├── MyLapTimesPlugin.dll
+
+├── MyLapTimesPlugin.deps.json
+
+├── MyLapTimesPlugin.runtimeconfig.json
+
+├── YamlDotNet.dll
+
+You just need to extract `MyLapTimesPlugin.zip` into `plugins\`, and you’re good to go !
+
+---
+
 ## 🚀 Getting Started
 
-### **1️⃣ Enable the Plugin**
+### ** Enable the Plugin**
 Add the plugin to your `extra_cfg.yml` configuration file:
 ```yaml
 EnablePlugins:
   - MyLapTimesPlugin
 ```
 
-### **2️⃣ Configure the Plugin**
+### ** Configure the Plugin**
 
 Update the plugin’s configuration file with your desired settings:
 ```yaml
@@ -43,18 +64,11 @@ MaxTopTimes: 5         # Set the number of top lap times to track
 BroadcastMessages: true
 ```
 
-### 3️⃣ In-Game Chat Functionality
+### In-Game Chat Functionality
 Ensure `EnableClientMessages` is set to `true` in your configuration to activate in-game chat feedback.
 
 ---
 
-## ⚙️ Installation and Setup
-
-1. **Place the plugin** in the appropriate directory for AssettoServer (v0.0.55).
-2. **Adjust the settings** in `extra_cfg.yml` and the plugin's configuration file as needed.
-3. **Start your AssettoServer instance** and enjoy enhanced lap-time tracking and integration.
-
----
 
 🔗 **Follow for Updates & Support:**  
 
